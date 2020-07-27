@@ -1,0 +1,16 @@
+.idea
+.DS_Store
+**/npm-debug.log
+**/node_modules
+test
+__tests__
+docs
+src
+build
+gulpfile.js
+
+.editorconfig
+.npmrc
+.prettierrc
+.babelrc
+

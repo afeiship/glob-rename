@@ -1,0 +1,38 @@
+{
+  "name": "@feizheng/glob-rename",
+  "version": "1.0.0",
+  "description": "Rename based on globby.",
+  "homepage": "https://github.com/afeiship/glob-rename",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "scripts": {
+    "build": "gulp",
+    "test": "jest"
+  },
+  "main": "dist/index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@feizheng/gulp-pkg-header": "^1.0.2",
+    "@feizheng/next-nice-comments": "^1.0.1",
+    "babel-plugin-transform-async-to-promises": "^0.8.15",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-header": "^2.0.9",
+    "gulp-load-plugins": "^2.0.2",
+    "gulp-size": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "jest": "^25.1.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "globby": "^11.0.1",
+    "mkdirp": "^1.0.4"
+  }
+}
