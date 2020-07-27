@@ -9,8 +9,8 @@
   gulp.task('scripts', function() {
     return gulp
       .src('src/*.js')
-      .pipe($.babel())
-      .pipe($.uglify())
+      // .pipe($.babel())
+      // .pipe($.uglify())
       .pipe($.feizheng.pkgHeader())
       .pipe(gulp.dest('dist'))
       .pipe($.size({ title: '[ size ]:' }));

@@ -1,6 +1,6 @@
 {
   "name": "@feizheng/glob-rename",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rename based on globby.",
   "homepage": "https://github.com/afeiship/glob-rename",
   "author": {
