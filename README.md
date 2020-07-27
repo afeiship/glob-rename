@@ -13,9 +13,9 @@ npm install -S @feizheng/glob-rename
 
 ## usage
 ```js
-import globRename from '@feizheng/glob-rename';
+import mv from '@feizheng/glob-rename';
 
-globRename.sync(['**/*.js'], 'dist', (path)=>{
+mv.sync(['**/*.js'], 'dist', (path)=>{
   path.ext = path.ext.replace('js', 'jsx');
 })
 ```
